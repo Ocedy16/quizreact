@@ -29,6 +29,14 @@
   cursor: pointer;
 }
 
+.Menu button:hover, .Quiz button:hover, .EndScreen button:hover{
+  background-color: lightgrey;
+}
+
+.Quiz button:active{
+  background-color: gray;
+}
+
 .Menu form{
   margin: 70px;
 }
